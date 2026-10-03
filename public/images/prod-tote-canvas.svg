@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+    <rect width="600" height="800" fill="#EFECE2"/>
+    <path d="M225 260 V175 A75 75 0 0 1 375 175 V260" fill="none" stroke="#B28A50" stroke-width="14"/>
+    <rect x="145" y="255" width="310" height="350" rx="16" fill="#18201B"/>
+    <rect x="210" y="340" width="180" height="140" rx="8" fill="#F8F5ED"/>
+    <text x="300" y="730" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#18201B">Heavyweight 16oz Commuter Canvas Tote</text>
+  </svg>

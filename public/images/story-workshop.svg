@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+    <rect width="800" height="600" fill="#E6DEC8"/>
+    <rect x="50" y="50" width="700" height="500" rx="12" fill="#F8F5ED" stroke="#18201B" stroke-width="3"/>
+    <!-- Loom / cutting table illustration -->
+    <rect x="120" y="320" width="560" height="24" fill="#18201B"/>
+    <line x1="160" y1="344" x2="160" y2="480" stroke="#18201B" stroke-width="12"/>
+    <line x1="640" y1="344" x2="640" y2="480" stroke="#18201B" stroke-width="12"/>
+    <!-- Fabric rolls -->
+    <circle cx="230" cy="275" r="42" fill="#B28A50" stroke="#18201B" stroke-width="4"/>
+    <circle cx="230" cy="275" r="14" fill="#F8F5ED"/>
+    <circle cx="330" cy="285" r="34" fill="#18201B"/>
+    <circle cx="330" cy="285" r="11" fill="#F8F5ED"/>
+    <path d="M360 320 Q480 260 610 320" fill="#B28A50" opacity="0.5"/>
+    <text x="400" y="135" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#18201B">Mumbai Cutting Table &amp; Loom Archive (Est. 2019)</text>
+    <text x="400" y="175" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#18201B">Every bolt of cloth is wash-tested before pattern cutting</text>
+  </svg>

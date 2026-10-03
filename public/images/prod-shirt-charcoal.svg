@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+    <rect width="600" height="800" fill="#EFECE2"/>
+    <path d="M170 170 L240 140 L300 175 L360 140 L430 170 L500 350 L435 380 L405 270 L405 640 L195 640 L195 270 L165 380 L100 350 Z" fill="#18201B"/>
+    <line x1="300" y1="175" x2="300" y2="640" stroke="#B28A50" stroke-width="4"/>
+    <rect x="330" y="275" width="55" height="65" rx="4" fill="none" stroke="#B28A50" stroke-width="2.5"/>
+    <text x="300" y="730" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#18201B">Malabar Linen-Cotton Shirt (Charcoal)</text>
+  </svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+    <rect width="600" height="800" fill="#EFECE2"/>
+    <path d="M175 140 L245 120 L300 140 L355 120 L425 140 L485 360 L430 380 L405 250 L405 680 L195 680 L195 250 L170 380 L115 360 Z" fill="#DFD5C0" stroke="#18201B" stroke-width="4"/>
+    <line x1="300" y1="140" x2="300" y2="330" stroke="#18201B" stroke-width="4"/>
+    <circle cx="300" cy="180" r="5" fill="#B28A50"/>
+    <circle cx="300" cy="225" r="5" fill="#B28A50"/>
+    <circle cx="300" cy="270" r="5" fill="#B28A50"/>
+    <text x="300" y="745" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#18201B">Kutch Handloom Mandarin Tunic</text>
+  </svg>

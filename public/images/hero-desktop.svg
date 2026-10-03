@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+    <rect width="1200" height="800" fill="#E8E1D3"/>
+    <rect x="60" y="60" width="1080" height="680" rx="16" fill="#DFD6C5" stroke="#B28A50" stroke-width="2" stroke-opacity="0.35"/>
+    <!-- Architectural arch backdrop -->
+    <path d="M350 740 V300 A250 250 0 0 1 850 300 V740 Z" fill="#F8F5ED"/>
+    <!-- Garment on wooden hanger / mannequin representation -->
+    <line x1="600" y1="120" x2="600" y2="195" stroke="#18201B" stroke-width="4"/>
+    <path d="M510 215 Q600 175 690 215" fill="none" stroke="#B28A50" stroke-width="8" stroke-linecap="round"/>
+    <!-- Tailored Linen Shirt Silhouette -->
+    <path d="M460 220 L530 195 L600 225 L670 195 L740 220 L810 390 L745 420 L710 310 L710 640 L490 640 L490 310 L455 420 L390 390 Z" fill="#18201B"/>
+    <!-- Collar & Placket detail -->
+    <path d="M535 195 L600 265 L665 195" fill="none" stroke="#F8F5ED" stroke-width="3"/>
+    <line x1="600" y1="265" x2="600" y2="640" stroke="#B28A50" stroke-width="3"/>
+    <circle cx="600" cy="310" r="4" fill="#F8F5ED"/>
+    <circle cx="600" cy="370" r="4" fill="#F8F5ED"/>
+    <circle cx="600" cy="430" r="4" fill="#F8F5ED"/>
+    <circle cx="600" cy="490" r="4" fill="#F8F5ED"/>
+    <!-- Pocket -->
+    <rect x="630" y="320" width="52" height="60" rx="4" fill="none" stroke="#B28A50" stroke-width="2"/>
+    <!-- Folded Chinos & Leather Sandals旁边 -->
+    <rect x="760" y="540" width="180" height="110" rx="8" fill="#B28A50"/>
+    <rect x="775" y="520" width="180" height="95" rx="8" fill="#C8A978" stroke="#18201B" stroke-width="2"/>
+    <text x="600" y="705" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#18201B">Handloom Cotton &amp; Linen Collection • Bengaluru &amp; Mumbai</text>
+  </svg>

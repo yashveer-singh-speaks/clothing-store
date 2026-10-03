@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="800" height="640">
+    <rect width="800" height="640" fill="#E8E1D3"/>
+    <path d="M180 600 V240 A220 220 0 0 1 620 240 V600 Z" fill="#F8F5ED"/>
+    <path d="M310 140 Q400 105 490 140" fill="none" stroke="#B28A50" stroke-width="7" stroke-linecap="round"/>
+    <path d="M270 150 L335 125 L400 155 L465 125 L530 150 L590 300 L530 325 L500 230 L500 520 L300 520 L300 230 L270 325 L210 300 Z" fill="#18201B"/>
+    <line x1="400" y1="185" x2="400" y2="520" stroke="#B28A50" stroke-width="3"/>
+    <text x="400" y="575" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#18201B">Everyday Indian Essentials</text>
+  </svg>
