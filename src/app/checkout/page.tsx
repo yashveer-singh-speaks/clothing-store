@@ -518,7 +518,7 @@ export default function CheckoutPage() {
                       </span>
                     </div>
                     <p className="text-xs text-[#18201B]/70">
-                      Scan our official Karigar Everyday Apparel & Goods Pvt. Ltd. UPI QR with any UPI app and enter your 12-digit UTR number below.
+                      Scan our official Whole/retail Name Pvt. Ltd. UPI QR with any UPI app and enter your 12-digit UTR number below.
                     </p>
 
                     {paymentMethod === 'manual_upi' && (
@@ -526,7 +526,7 @@ export default function CheckoutPage() {
                         <div className="sm:col-span-4 flex justify-center">
                           <img
                             src="/images/upi-qr.svg"
-                            alt="Karigar & Co. Verified Merchant UPI QR"
+                            alt="Whole/retail Name Verified Merchant UPI QR"
                             className="w-36 h-44 object-contain rounded border border-[#18201B]/15"
                           />
                         </div>
@@ -776,7 +776,7 @@ export default function CheckoutPage() {
                   RAZORPAY SECURE INDIA
                 </p>
                 <h3 className="font-story text-lg font-bold">
-                  Karigar Everyday Apparel & Goods Pvt. Ltd.
+                  Whole/retail Name Pvt. Ltd.
                 </h3>
               </div>
               <div className="text-right price-num">

@@ -9,9 +9,9 @@ import {
 } from './types';
 
 export const initialGlobalSettings: GlobalCMSSettings = {
-  storeName: 'Karigar & Co.',
+  storeName: 'Whole/retail Name',
   storeTagline: 'Full-grain leather jackets, coats, skirts & goods.',
-  legalEntityName: 'Karigar Everyday Apparel & Goods Pvt. Ltd.',
+  legalEntityName: 'Whole/retail Name Pvt. Ltd.',
   gstin: '07AABCK4829L1Z5',
   foundingYear: 2019,
   announcementBar: {
@@ -25,7 +25,7 @@ export const initialGlobalSettings: GlobalCMSSettings = {
     endsAt: null,
   },
   header: {
-    logoText: 'KARIGAR & CO.',
+    logoText: 'WHOLE/RETAIL NAME',
     showPinChecker: true,
     defaultPin: '',
     navLinks: [
@@ -69,7 +69,7 @@ export const initialCategories: CategoryRecord[] = [
     order: 1,
     archived: false,
     allowedFilters: ['size', 'color', 'price', 'fabric', 'fit'],
-    seoTitle: "Men's Luxury Leather Jackets, Racers & Coats | Karigar & Co.",
+    seoTitle: "Men's Luxury Leather Jackets, Racers & Coats | Whole/retail Name",
     seoDescription: "Shop handcrafted full-grain leather jackets for men in obsidian black, vintage tobacco, and oxblood red.",
   },
   {
@@ -84,7 +84,7 @@ export const initialCategories: CategoryRecord[] = [
     order: 2,
     archived: false,
     allowedFilters: ['size', 'color', 'price', 'fabric', 'fit'],
-    seoTitle: "Women's Luxury Leather Jackets, Coats & Skirts | Karigar & Co.",
+    seoTitle: "Women's Luxury Leather Jackets, Coats & Skirts | Whole/retail Name",
     seoDescription: "Tailored women's leather apparel crafted from glove-soft Italian nappa and vegetable-tanned leather.",
   },
   {
@@ -99,7 +99,7 @@ export const initialCategories: CategoryRecord[] = [
     order: 3,
     archived: false,
     allowedFilters: ['size', 'color', 'price', 'genderScope'],
-    seoTitle: 'Leather Biker & Café Racer Jackets | Karigar & Co.',
+    seoTitle: 'Leather Biker & Café Racer Jackets | Whole/retail Name',
     seoDescription: 'Heavy-duty YKK hardware, full-grain lambskin, and ergonomic diamond quilting.',
   },
   {
@@ -114,7 +114,7 @@ export const initialCategories: CategoryRecord[] = [
     order: 4,
     archived: false,
     allowedFilters: ['size', 'color', 'price', 'genderScope'],
-    seoTitle: 'Luxury Leather Overcoats & Trench Coats | Karigar & Co.',
+    seoTitle: 'Luxury Leather Overcoats & Trench Coats | Whole/retail Name',
     seoDescription: 'Longline drape, storm flaps, matching leather tie belts, and silk-blend lining.',
   },
   {
@@ -129,7 +129,7 @@ export const initialCategories: CategoryRecord[] = [
     order: 5,
     archived: false,
     allowedFilters: ['size', 'color', 'price', 'genderScope'],
-    seoTitle: 'Leather Bomber & Flight Jackets | Karigar & Co.',
+    seoTitle: 'Leather Bomber & Flight Jackets | Whole/retail Name',
     seoDescription: 'Ribbed wool collar and hem trims, utility sleeve zips, and supple lambskin.',
   },
   {
@@ -144,7 +144,7 @@ export const initialCategories: CategoryRecord[] = [
     order: 6,
     archived: false,
     allowedFilters: ['size', 'color', 'price'],
-    seoTitle: "Women's Leather Skirts — Midi, Pencil & Mini | Karigar & Co.",
+    seoTitle: "Women's Leather Skirts — Midi, Pencil & Mini | Whole/retail Name",
     seoDescription: 'Precision paneled leather skirts in black, chestnut brown, and burgundy red.',
   },
   {
@@ -159,7 +159,7 @@ export const initialCategories: CategoryRecord[] = [
     order: 7,
     archived: false,
     allowedFilters: ['color', 'price'],
-    seoTitle: 'Leather Duffle Bags, Briefcases & Belts | Karigar & Co.',
+    seoTitle: 'Leather Duffle Bags, Briefcases & Belts | Whole/retail Name',
     seoDescription: 'Solid brass hardware, copper rivets, and full-grain vegetable-tanned leather.',
   },
   {
@@ -174,7 +174,7 @@ export const initialCategories: CategoryRecord[] = [
     order: 8,
     archived: false,
     allowedFilters: ['size', 'price'],
-    seoTitle: 'Handcrafted Leather Boots & Footwear | Karigar & Co.',
+    seoTitle: 'Handcrafted Leather Boots & Footwear | Whole/retail Name',
     seoDescription: 'Goodyear-welted construction with cushioned arch support.',
   },
 ];
@@ -188,7 +188,7 @@ export const initialCollections: CollectionRecord[] = [
     description: 'Our complete atelier catalogue of handcrafted leather jackets, longline coats, bombers, skirts, and bags.',
     campaignTerms: 'Free Insured Delivery on orders over ₹999 • 7-Day Doorstep Size Exchange.',
     bannerImage: '/images/hero-desktop.jpg',
-    bannerAlt: 'Karigar luxury leather collection',
+    bannerAlt: 'Whole/retail Name luxury leather collection',
     mode: 'manual',
     matchType: 'ALL',
     rules: [],
@@ -312,7 +312,7 @@ export const initialCollections: CollectionRecord[] = [
   {
     id: 'col_bestsellers',
     slug: 'bestsellers',
-    title: 'Karigar Atelier Bestsellers',
+    title: 'Whole/retail Name Atelier Bestsellers',
     eyebrow: 'Customer Favorites',
     description: 'Our most sought-after leather jackets, car coats, and weekend travel bags.',
     campaignTerms: 'Backed by our 5-year leather hardware & seam repair guarantee.',
@@ -342,7 +342,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Iconic asymmetric motorcycle jacket tailored from supple 1.1mm full-grain lambskin with diamond-quilted shoulders and waist belt.",
     "description": "Crafted for decades of wear. Our signature obsidian biker jacket features hand-selected 1.1mm drum-dyed full-grain lambskin that breaks in to mould to your body. Equipped with heavy-duty silver YKK zippers, snap-down lapels, diamond-stitched impact shoulders, and an adjustable waist belt.",
     "productType": "jacket",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -500,9 +500,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Men Handcrafted Leather Jacket",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -514,7 +514,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Obsidian Full-Grain Leather Asymmetric Biker Jacket | Karigar & Co. Leather Atelier",
+      "title": "Obsidian Full-Grain Leather Asymmetric Biker Jacket | Whole/retail Name Leather Atelier",
       "description": "Iconic asymmetric motorcycle jacket tailored from supple 1.1mm full-grain lambskin with diamond-quilted shoulders and waist belt.",
       "canonicalSlug": "mens-full-grain-leather-biker-jacket-black",
       "noindex": false
@@ -557,7 +557,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Rugged motorcycle jacket cut from distressed tobacco cowhide leather that develops a unique natural patina with age.",
     "description": "Inspired by vintage cafe culture. Tailored from 1.2mm buffed cowhide with natural pull-up oils that highlight character lines over time. Features antique brass zip closures, quilted arm gussets, buckle collar tab, and two zippered chest utility pockets.",
     "productType": "jacket",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -714,9 +714,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Men Handcrafted Leather Jacket",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -728,7 +728,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Vintage Distressed Tobacco Leather Moto Jacket | Karigar & Co. Leather Atelier",
+      "title": "Vintage Distressed Tobacco Leather Moto Jacket | Whole/retail Name Leather Atelier",
       "description": "Rugged motorcycle jacket cut from distressed tobacco cowhide leather that develops a unique natural patina with age.",
       "canonicalSlug": "mens-vintage-distressed-leather-moto-jacket-brown",
       "noindex": false
@@ -771,7 +771,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Striking deep oxblood red leather biker jacket with gunmetal zippers, snap lapels, and tailored waist tabs.",
     "description": "A sophisticated statement piece. Handcrafted from drum-dyed oxblood lambskin with deep wine undertones. Finished with gunmetal hardware, diagonal zip front, snap-fastened lapels, zippered sleeve cuffs, and twin interior welt pockets.",
     "productType": "jacket",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -928,9 +928,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Men Handcrafted Leather Jacket",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -942,7 +942,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Oxblood Crimson Leather Asymmetric Biker Jacket | Karigar & Co. Leather Atelier",
+      "title": "Oxblood Crimson Leather Asymmetric Biker Jacket | Whole/retail Name Leather Atelier",
       "description": "Striking deep oxblood red leather biker jacket with gunmetal zippers, snap lapels, and tailored waist tabs.",
       "canonicalSlug": "mens-oxblood-crimson-leather-biker-jacket-red",
       "noindex": false
@@ -985,7 +985,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Feminine cropped moto silhouette crafted from butter-soft black nappa leather with polished silver zippers.",
     "description": "The quintessential leather jacket. Tailored with a cropped waistline and contoured back seams to flatter every silhouette. Cut from glove-soft 0.9mm black nappa leather with polished chrome hardware, zip sleeve cuffs, and snap collar.",
     "productType": "jacket",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -1143,9 +1143,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Jacket",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -1157,7 +1157,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Cropped Obsidian Nappa Leather Biker Jacket | Karigar & Co. Leather Atelier",
+      "title": "Cropped Obsidian Nappa Leather Biker Jacket | Whole/retail Name Leather Atelier",
       "description": "Feminine cropped moto silhouette crafted from butter-soft black nappa leather with polished silver zippers.",
       "canonicalSlug": "womens-cropped-nappa-leather-biker-jacket-black",
       "noindex": false
@@ -1200,7 +1200,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Luxurious caramel cognac leather jacket with brushed gold zippers, princess seams, and point lapels.",
     "description": "Warm, elegant, and versatile. Crafted from vegetable-tanned goat nappa leather in rich golden cognac. Features brushed gold zip accents, diagonal chest pockets, and refined seam detailing.",
     "productType": "jacket",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -1357,9 +1357,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Jacket",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -1371,7 +1371,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Cognac Tan Butter-Soft Leather Moto Jacket | Karigar & Co. Leather Atelier",
+      "title": "Cognac Tan Butter-Soft Leather Moto Jacket | Whole/retail Name Leather Atelier",
       "description": "Luxurious caramel cognac leather jacket with brushed gold zippers, princess seams, and point lapels.",
       "canonicalSlug": "womens-cognac-tan-butter-soft-leather-moto-jacket",
       "noindex": false
@@ -1414,7 +1414,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Deep wine red lambskin leather biker jacket featuring an integrated waist belt and asymmetric zip front.",
     "description": "Richly saturated in dark cherry wine tones. Built from full-grain lambskin with natural suppleness. Features an asymmetric front zipper, snap collar, zippered hand pockets, and a classic buckled hem belt.",
     "productType": "jacket",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -1571,9 +1571,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Jacket",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -1585,7 +1585,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Deep Burgundy Red Belted Leather Biker Jacket | Karigar & Co. Leather Atelier",
+      "title": "Deep Burgundy Red Belted Leather Biker Jacket | Whole/retail Name Leather Atelier",
       "description": "Deep wine red lambskin leather biker jacket featuring an integrated waist belt and asymmetric zip front.",
       "canonicalSlug": "womens-deep-burgundy-red-belted-leather-biker",
       "noindex": false
@@ -1628,7 +1628,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Flattering high-waisted A-line midi skirt cut from supple black lambskin nappa with clean vertical panel seams and a front slit.",
     "description": "An architectural staple for the modern wardrobe. Features a high-waisted tailored waistband that flares gently into an A-line midi drape. Cut with vertical seam panels and a subtle front-left walking slit. Fully lined in breathable silk-blend cupro with an invisible side zip.",
     "productType": "skirt",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_skirts",
     "categoryAncestry": [
@@ -1785,9 +1785,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Skirt",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -1799,7 +1799,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "High-Waisted Black Leather A-Line Midi Skirt | Karigar & Co. Leather Atelier",
+      "title": "High-Waisted Black Leather A-Line Midi Skirt | Whole/retail Name Leather Atelier",
       "description": "Flattering high-waisted A-line midi skirt cut from supple black lambskin nappa with clean vertical panel seams and a front slit.",
       "canonicalSlug": "womens-high-waisted-black-leather-aline-midi-skirt",
       "noindex": false
@@ -1842,7 +1842,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Knee-length tailored pencil skirt in rich chestnut brown leather with refined topstitched panels.",
     "description": "Structured elegance for business and evenings. Cut from vegetable-tanned chestnut leather that retains its sleek form. Features vertical contour panels, an exposed antique brass back zipper, and a rear walking vent for effortless movement.",
     "productType": "skirt",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_skirts",
     "categoryAncestry": [
@@ -1998,9 +1998,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Skirt",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -2012,7 +2012,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Chestnut Brown Paneled Leather Pencil Skirt | Karigar & Co. Leather Atelier",
+      "title": "Chestnut Brown Paneled Leather Pencil Skirt | Whole/retail Name Leather Atelier",
       "description": "Knee-length tailored pencil skirt in rich chestnut brown leather with refined topstitched panels.",
       "canonicalSlug": "womens-chestnut-brown-paneled-leather-pencil-skirt",
       "noindex": false
@@ -2055,7 +2055,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "High-waisted wrap mini skirt in deep oxblood red leather with an asymmetric front and gold oval buckle fastening.",
     "description": "Bold yet refined. Tailored with an overlapping wrap front secured by an adjustable gold-tone buckle belt. Crafted from supple deep burgundy calfskin leather that resists creasing and moves with you.",
     "productType": "skirt",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_skirts",
     "categoryAncestry": [
@@ -2212,9 +2212,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Skirt",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -2226,7 +2226,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Burgundy Red Leather Buckle Wrap Mini Skirt | Karigar & Co. Leather Atelier",
+      "title": "Burgundy Red Leather Buckle Wrap Mini Skirt | Whole/retail Name Leather Atelier",
       "description": "High-waisted wrap mini skirt in deep oxblood red leather with an asymmetric front and gold oval buckle fastening.",
       "canonicalSlug": "womens-burgundy-red-leather-buckle-wrap-mini-skirt",
       "noindex": false
@@ -2269,7 +2269,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Knee-length single-breasted leather overcoat tailored from rich full-grain black lambskin with horn buttons.",
     "description": "The peak of sartorial leather craft. Single-breasted tailored silhouette with clean notch lapels, horn button front, vertical welt pockets, center back vent, and two secure internal passport pockets. Sits comfortably over suits or heavy knitwear.",
     "productType": "coat",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_coats",
     "categoryAncestry": [
@@ -2427,9 +2427,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Men Handcrafted Leather Coat",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -2441,7 +2441,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Obsidian Tailored Single-Breasted Leather Car Coat | Karigar & Co. Leather Atelier",
+      "title": "Obsidian Tailored Single-Breasted Leather Car Coat | Whole/retail Name Leather Atelier",
       "description": "Knee-length single-breasted leather overcoat tailored from rich full-grain black lambskin with horn buttons.",
       "canonicalSlug": "mens-single-breasted-black-leather-car-coat",
       "noindex": false
@@ -2484,7 +2484,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Heritage double-breasted leather trench coat in saddle brown with storm flaps, epaulettes, and leather waist belt.",
     "description": "An imposing heritage coat built from heavyweight 1.3mm bourbon cowhide. Double-breasted ten-button front with tortoise-shell horn buttons, adjustable cuff buckles, back storm shield, and a matching leather tie belt.",
     "productType": "coat",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_coats",
     "categoryAncestry": [
@@ -2642,9 +2642,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Men Handcrafted Leather Coat",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -2656,7 +2656,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Saddle Brown Double-Breasted Belted Leather Trench Coat | Karigar & Co. Leather Atelier",
+      "title": "Saddle Brown Double-Breasted Belted Leather Trench Coat | Whole/retail Name Leather Atelier",
       "description": "Heritage double-breasted leather trench coat in saddle brown with storm flaps, epaulettes, and leather waist belt.",
       "canonicalSlug": "mens-saddle-brown-belted-leather-trench-coat",
       "noindex": false
@@ -2699,7 +2699,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Modern structured car coat in rich burgundy red calfskin with a concealed button placket and slash hand pockets.",
     "description": "Clean minimalist lines meet deep wine red leather. Tailored with a sharp point collar, concealed button closure, slanted hand-warmer pockets, and structured shoulders. Lined in lightweight silk-blend twill.",
     "productType": "coat",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_coats",
     "categoryAncestry": [
@@ -2856,9 +2856,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Men Handcrafted Leather Coat",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -2870,7 +2870,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Burgundy Red Structured Leather Car Coat | Karigar & Co. Leather Atelier",
+      "title": "Burgundy Red Structured Leather Car Coat | Whole/retail Name Leather Atelier",
       "description": "Modern structured car coat in rich burgundy red calfskin with a concealed button placket and slash hand pockets.",
       "canonicalSlug": "mens-burgundy-red-structured-leather-car-coat",
       "noindex": false
@@ -2913,7 +2913,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Full-length double-breasted black leather trench coat featuring a waist-cinching belt and storm flap.",
     "description": "Unrivaled luxury and presence. Crafted from feather-light yet durable Italian-grade black nappa leather that falls in graceful folds. Double-breasted button front, epaulettes, matching leather belt with covered buckle, and wrist cinch straps.",
     "productType": "coat",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_coats",
     "categoryAncestry": [
@@ -3071,9 +3071,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Coat",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -3085,7 +3085,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Double-Breasted Obsidian Nappa Leather Trench Coat | Karigar & Co. Leather Atelier",
+      "title": "Double-Breasted Obsidian Nappa Leather Trench Coat | Whole/retail Name Leather Atelier",
       "description": "Full-length double-breasted black leather trench coat featuring a waist-cinching belt and storm flap.",
       "canonicalSlug": "womens-double-breasted-black-leather-trench-coat",
       "noindex": false
@@ -3128,7 +3128,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Warm caramel tan longline leather trench coat with a fluid drape and matching self-tie sash belt.",
     "description": "Effortless warmth and sophistication. Handcrafted from butter-soft golden caramel lambskin. Designed with fluid relaxed lapels, deep welt pockets, and a wide leather sash belt that cinches the waist.",
     "productType": "coat",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_coats",
     "categoryAncestry": [
@@ -3285,9 +3285,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Coat",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -3299,7 +3299,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Caramel Tan Butter-Soft Leather Trench Coat | Karigar & Co. Leather Atelier",
+      "title": "Caramel Tan Butter-Soft Leather Trench Coat | Whole/retail Name Leather Atelier",
       "description": "Warm caramel tan longline leather trench coat with a fluid drape and matching self-tie sash belt.",
       "canonicalSlug": "womens-caramel-tan-butter-soft-leather-trench-coat",
       "noindex": false
@@ -3342,7 +3342,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Tailored longline coat in deep oxblood wine red leather with structured shoulders and a gold-buckled waist belt.",
     "description": "A show-stopping coat tailored to perfection. Deep wine red calfskin with a subtle natural sheen. Features sharp tailored lapels, structured shoulder padding, gold-accented waist belt, and deep hand pockets.",
     "productType": "coat",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_coats",
     "categoryAncestry": [
@@ -3499,9 +3499,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Coat",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -3513,7 +3513,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Deep Wine Red Tailored Leather Belted Coat | Karigar & Co. Leather Atelier",
+      "title": "Deep Wine Red Tailored Leather Belted Coat | Whole/retail Name Leather Atelier",
       "description": "Tailored longline coat in deep oxblood wine red leather with structured shoulders and a gold-buckled waist belt.",
       "canonicalSlug": "womens-deep-wine-red-tailored-leather-belted-coat",
       "noindex": false
@@ -3556,7 +3556,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Classic military MA-1 flight jacket crafted from supple black lambskin with dense wool ribbing and heavy brass zippers.",
     "description": "The timeless pilot silhouette upgraded to luxury standards. Constructed from 1.1mm full-grain black lambskin with dense wool-blend ribbed collar, cuffs, and hem. Features a heavy antique brass center zipper, snap hand pockets, and the signature zippered utility arm pocket.",
     "productType": "bomber",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_bombers",
     "categoryAncestry": [
@@ -3713,9 +3713,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Men Handcrafted Leather Bomber",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -3727,7 +3727,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "MA-1 Lambskin Flight Bomber Jacket in Obsidian Black | Karigar & Co. Leather Atelier",
+      "title": "MA-1 Lambskin Flight Bomber Jacket in Obsidian Black | Whole/retail Name Leather Atelier",
       "description": "Classic military MA-1 flight jacket crafted from supple black lambskin with dense wool ribbing and heavy brass zippers.",
       "canonicalSlug": "mens-ma1-lambskin-flight-bomber-jacket-black",
       "noindex": false
@@ -3770,7 +3770,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Authentic A-2 aviator flight jacket in rich bourbon cowhide with a detachable plush shearling collar.",
     "description": "Built for high altitudes and harsh winters. Made from 1.3mm bourbon cowhide with a detachable cream Australian shearling collar. Features twin dual-entry cargo flap pockets, ribbed hem and cuffs, and antique brass storm flap.",
     "productType": "bomber",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_bombers",
     "categoryAncestry": [
@@ -3928,9 +3928,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Men Handcrafted Leather Bomber",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -3942,7 +3942,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "A-2 Bourbon Aviator Flight Jacket with Shearling Collar | Karigar & Co. Leather Atelier",
+      "title": "A-2 Bourbon Aviator Flight Jacket with Shearling Collar | Whole/retail Name Leather Atelier",
       "description": "Authentic A-2 aviator flight jacket in rich bourbon cowhide with a detachable plush shearling collar.",
       "canonicalSlug": "mens-a2-bourbon-aviator-flight-jacket-shearling-brown",
       "noindex": false
@@ -3985,7 +3985,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Modern minimalist bomber jacket in drum-dyed oxblood red leather with low-profile tonal ribbing.",
     "description": "Streamlined urban styling. Cut from supple crimson calfskin with tonal ribbed knit trim. Features gunmetal center zip, clean welt hand pockets, and an unpadded tailored fit ideal for year-round layering.",
     "productType": "bomber",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_bombers",
     "categoryAncestry": [
@@ -4141,9 +4141,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Men Handcrafted Leather Bomber",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -4155,7 +4155,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Oxblood Red Minimalist Zip-Up Leather Bomber | Karigar & Co. Leather Atelier",
+      "title": "Oxblood Red Minimalist Zip-Up Leather Bomber | Whole/retail Name Leather Atelier",
       "description": "Modern minimalist bomber jacket in drum-dyed oxblood red leather with low-profile tonal ribbing.",
       "canonicalSlug": "mens-oxblood-red-minimalist-zip-up-leather-bomber",
       "noindex": false
@@ -4198,7 +4198,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Feminine cropped MA-1 leather bomber in jet black goat nappa with gold-tone hardware and ribbed waist.",
     "description": "Casual luxury with streetwear heritage. Cropped high at the waist with soft ribbed collar, cuffs, and hem. Features polished gold YKK zippers and butter-soft black goat nappa leather.",
     "productType": "bomber",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_bombers",
     "categoryAncestry": [
@@ -4354,9 +4354,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Bomber",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -4368,7 +4368,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Cropped MA-1 Leather Bomber Jacket in Jet Black | Karigar & Co. Leather Atelier",
+      "title": "Cropped MA-1 Leather Bomber Jacket in Jet Black | Whole/retail Name Leather Atelier",
       "description": "Feminine cropped MA-1 leather bomber in jet black goat nappa with gold-tone hardware and ribbed waist.",
       "canonicalSlug": "womens-cropped-ma1-leather-bomber-black",
       "noindex": false
@@ -4411,7 +4411,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Cozy honey tan calf suede aviator bomber with cream shearling collar trim and brass accents.",
     "description": "Ultra-soft velvety calf suede in golden honey tan. Finished with a cozy cream shearling collar trim, dual buckle side tabs, and antique brass zips.",
     "productType": "bomber",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_bombers",
     "categoryAncestry": [
@@ -4568,9 +4568,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Bomber",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -4582,7 +4582,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Honey Tan Suede Aviator Bomber Jacket | Karigar & Co. Leather Atelier",
+      "title": "Honey Tan Suede Aviator Bomber Jacket | Whole/retail Name Leather Atelier",
       "description": "Cozy honey tan calf suede aviator bomber with cream shearling collar trim and brass accents.",
       "canonicalSlug": "womens-honey-tan-suede-aviator-bomber-shearling",
       "noindex": false
@@ -4625,7 +4625,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Vibrant crimson red soft leather bomber jacket featuring contrasting charcoal wool ribbed trims.",
     "description": "Vibrant and chic. Made from drum-dyed red lambskin that drapes effortlessly. Accented by contrasting charcoal grey wool-blend ribbed trims and silver metallic hardware.",
     "productType": "bomber",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_bombers",
     "categoryAncestry": [
@@ -4781,9 +4781,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Bomber",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -4795,7 +4795,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Crimson Red Butter-Soft Leather Ribbed Bomber | Karigar & Co. Leather Atelier",
+      "title": "Crimson Red Butter-Soft Leather Ribbed Bomber | Whole/retail Name Leather Atelier",
       "description": "Vibrant crimson red soft leather bomber jacket featuring contrasting charcoal wool ribbed trims.",
       "canonicalSlug": "womens-crimson-red-soft-leather-ribbed-bomber",
       "noindex": false
@@ -4838,7 +4838,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Purist motorcycle caf\u00e9 racer in black full-grain leather with a mandarin snap collar and streamlined racing cut.",
     "description": "The quintessential rider silhouette. Stripped of excess for clean aerodynamics. Features a snap-tab mandarin collar, straight vertical center zip, twin zippered chest pockets, and zippered wrist gussets.",
     "productType": "racer",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -4994,9 +4994,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Men Handcrafted Leather Racer",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -5008,7 +5008,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Classic Mandarin Snap Collar Black Caf\u00e9 Racer Jacket | Karigar & Co. Leather Atelier",
+      "title": "Classic Mandarin Snap Collar Black Caf\u00e9 Racer Jacket | Whole/retail Name Leather Atelier",
       "description": "Purist motorcycle caf\u00e9 racer in black full-grain leather with a mandarin snap collar and streamlined racing cut.",
       "canonicalSlug": "mens-classic-mandarin-collar-black-cafe-racer",
       "noindex": false
@@ -5051,7 +5051,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Vintage hand-waxed antique tan leather caf\u00e9 racer featuring diamond-quilted shoulders and brass zips.",
     "description": "Rich in character and old-school charm. Hand-waxed cowhide leather in warm antique tan. Features diamond quilting across the shoulders and elbows, mandarin snap neck, and brass zip hardware.",
     "productType": "racer",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -5209,9 +5209,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Men Handcrafted Leather Racer",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -5223,7 +5223,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Antique Tan Quilted Shoulder Caf\u00e9 Racer Jacket | Karigar & Co. Leather Atelier",
+      "title": "Antique Tan Quilted Shoulder Caf\u00e9 Racer Jacket | Whole/retail Name Leather Atelier",
       "description": "Vintage hand-waxed antique tan leather caf\u00e9 racer featuring diamond-quilted shoulders and brass zips.",
       "canonicalSlug": "mens-antique-tan-quilted-shoulder-cafe-racer",
       "noindex": false
@@ -5266,7 +5266,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Track-inspired caf\u00e9 racer in oxblood red leather accented with dual ivory sleeve racing stripes.",
     "description": "Motorsport adrenaline meets luxury leather. Oxblood red lambskin with contrast off-white racing stripes stitched along both sleeves. Equipped with mandarin snap collar, perforated underarm vents, and chest zips.",
     "productType": "racer",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -5423,9 +5423,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Men Handcrafted Leather Racer",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -5437,7 +5437,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Oxblood Track Racing Leather Jacket with Ivory Stripes | Karigar & Co. Leather Atelier",
+      "title": "Oxblood Track Racing Leather Jacket with Ivory Stripes | Whole/retail Name Leather Atelier",
       "description": "Track-inspired caf\u00e9 racer in oxblood red leather accented with dual ivory sleeve racing stripes.",
       "canonicalSlug": "mens-oxblood-track-racing-leather-jacket-red",
       "noindex": false
@@ -5480,7 +5480,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Minimalist women's black leather caf\u00e9 racer with a neat band collar and tailored vertical seamlines.",
     "description": "Sleek, architectural, and effortlessly cool. Tailored with princess seam paneling from ultra-fine grain black lambskin. Features a minimal snap-band collar, exposed silver center zipper, and zippered hand pockets.",
     "productType": "racer",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -5636,9 +5636,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Racer",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -5650,7 +5650,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Band-Collar Slim Black Leather Caf\u00e9 Racer | Karigar & Co. Leather Atelier",
+      "title": "Band-Collar Slim Black Leather Caf\u00e9 Racer | Whole/retail Name Leather Atelier",
       "description": "Minimalist women's black leather caf\u00e9 racer with a neat band collar and tailored vertical seamlines.",
       "canonicalSlug": "womens-band-collar-slim-black-leather-cafe-racer",
       "noindex": false
@@ -5693,7 +5693,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Vintage-inspired women's caf\u00e9 racer in honey cognac leather with subtle natural pull-up shading.",
     "description": "A timeless wardrobe investment. Made from vegetable-tanned goat leather that softens with every wear. Finished with antique brass zips, snap collar tab, and tailored side gussets.",
     "productType": "racer",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -5849,9 +5849,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Racer",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -5863,7 +5863,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Honey Cognac Vintage Leather Caf\u00e9 Racer | Karigar & Co. Leather Atelier",
+      "title": "Honey Cognac Vintage Leather Caf\u00e9 Racer | Whole/retail Name Leather Atelier",
       "description": "Vintage-inspired women's caf\u00e9 racer in honey cognac leather with subtle natural pull-up shading.",
       "canonicalSlug": "womens-honey-cognac-vintage-leather-racer",
       "noindex": false
@@ -5906,7 +5906,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Sophisticated ruby wine red leather caf\u00e9 racer tailored with a snap-fastened band collar.",
     "description": "Rich gemstone hues in butter-soft lambskin. Cut with flattering vertical lines, mandarin snap collar, and sleek silver zip hardware.",
     "productType": "racer",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -6062,9 +6062,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Racer",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -6076,7 +6076,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Ruby Red Mandarin Collar Slim Leather Racer | Karigar & Co. Leather Atelier",
+      "title": "Ruby Red Mandarin Collar Slim Leather Racer | Whole/retail Name Leather Atelier",
       "description": "Sophisticated ruby wine red leather caf\u00e9 racer tailored with a snap-fastened band collar.",
       "canonicalSlug": "womens-ruby-red-mandarin-collar-slim-racer",
       "noindex": false
@@ -6119,7 +6119,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Classic Type III western trucker jacket tailored from heavy-duty full-grain black cowhide with metal shank buttons.",
     "description": "The American western denim silhouette elevated with heavy 1.1mm full-grain black cowhide. Features dual buttoned flap chest pockets, vertical seam panels, welt hand pockets, side waist tabs, and solid nickel shank buttons.",
     "productType": "trucker",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -6274,9 +6274,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Men Handcrafted Leather Trucker",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -6288,7 +6288,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Western-Cut Full-Grain Black Leather Trucker Jacket | Karigar & Co. Leather Atelier",
+      "title": "Western-Cut Full-Grain Black Leather Trucker Jacket | Whole/retail Name Leather Atelier",
       "description": "Classic Type III western trucker jacket tailored from heavy-duty full-grain black cowhide with metal shank buttons.",
       "canonicalSlug": "mens-western-cut-black-leather-trucker-jacket",
       "noindex": false
@@ -6331,7 +6331,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Heritage western trucker jacket in rich tobacco roughout suede leather with antique brass button closure.",
     "description": "Rugged, textured, and deeply tactile. Crafted from heavy tobacco roughout suede with double-stitched yoke panels. Features pointed flap chest pockets, welt hand pockets, and antique brass shank buttons.",
     "productType": "trucker",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -6487,9 +6487,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Men Handcrafted Leather Trucker",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -6501,7 +6501,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Tobacco Roughout Suede Western Trucker Jacket | Karigar & Co. Leather Atelier",
+      "title": "Tobacco Roughout Suede Western Trucker Jacket | Whole/retail Name Leather Atelier",
       "description": "Heritage western trucker jacket in rich tobacco roughout suede leather with antique brass button closure.",
       "canonicalSlug": "mens-tobacco-roughout-suede-western-trucker-jacket",
       "noindex": false
@@ -6544,7 +6544,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Unique rust burgundy leather western trucker jacket with tonal seam detailing and shank button front.",
     "description": "Rich autumnal tones meet iconic trucker styling. Cut from drum-dyed burgundy calfskin with natural grain. Finished with pointed pocket flaps, welt pockets, and gunmetal hardware.",
     "productType": "trucker",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -6699,9 +6699,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Men Handcrafted Leather Trucker",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -6713,7 +6713,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Rust Burgundy Leather Western Trucker Jacket | Karigar & Co. Leather Atelier",
+      "title": "Rust Burgundy Leather Western Trucker Jacket | Whole/retail Name Leather Atelier",
       "description": "Unique rust burgundy leather western trucker jacket with tonal seam detailing and shank button front.",
       "canonicalSlug": "mens-rust-burgundy-leather-western-trucker-jacket",
       "noindex": false
@@ -6756,7 +6756,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Women's cropped leather trucker jacket in soft black lambskin with silver shank buttons and clean chest flaps.",
     "description": "The rugged trucker reimagined with feminine proportions. Cropped length with tailored shoulders and waist tabs. Crafted from glove-soft black lambskin with polished silver shank buttons.",
     "productType": "trucker",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -6911,9 +6911,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Trucker",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -6925,7 +6925,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Cropped Western Black Leather Trucker Jacket | Karigar & Co. Leather Atelier",
+      "title": "Cropped Western Black Leather Trucker Jacket | Whole/retail Name Leather Atelier",
       "description": "Women's cropped leather trucker jacket in soft black lambskin with silver shank buttons and clean chest flaps.",
       "canonicalSlug": "womens-cropped-western-black-leather-trucker",
       "noindex": false
@@ -6968,7 +6968,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Warm cognac tan leather trucker jacket with antique brass buttons and tailored point collar.",
     "description": "Rich honey cognac leather tailored in a sharp western silhouette. Features dual pointed chest flaps, vertical topstitched panels, and antique brass buttons.",
     "productType": "trucker",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -7123,9 +7123,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Trucker",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -7137,7 +7137,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Warm Cognac Leather Western Trucker Jacket | Karigar & Co. Leather Atelier",
+      "title": "Warm Cognac Leather Western Trucker Jacket | Whole/retail Name Leather Atelier",
       "description": "Warm cognac tan leather trucker jacket with antique brass buttons and tailored point collar.",
       "canonicalSlug": "womens-warm-cognac-leather-trucker-jacket",
       "noindex": false
@@ -7180,7 +7180,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Dark cherry red leather trucker jacket featuring tailored western yoke lines and gunmetal shank buttons.",
     "description": "Deep crimson hues in butter-soft lambskin. Pointed western chest pockets, buttoned cuffs, and adjustable side waist tabs.",
     "productType": "trucker",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_jackets",
     "categoryAncestry": [
@@ -7335,9 +7335,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Women Handcrafted Leather Trucker",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -7349,7 +7349,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Dark Cherry Red Leather Western Trucker Jacket | Karigar & Co. Leather Atelier",
+      "title": "Dark Cherry Red Leather Western Trucker Jacket | Whole/retail Name Leather Atelier",
       "description": "Dark cherry red leather trucker jacket featuring tailored western yoke lines and gunmetal shank buttons.",
       "canonicalSlug": "womens-dark-cherry-red-leather-western-trucker",
       "noindex": false
@@ -7392,7 +7392,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Cabin-approved 45L travel duffel bag handcrafted from full-grain black and bourbon leather with solid brass hardware.",
     "description": "Handcrafted for a lifetime of journeys. Cut from 1.8mm full-grain cowhide reinforced at stress points with solid copper rivets. Features rolled leather carry handles, detachable padded shoulder strap, shoe compartment, and heavy-duty double YKK brass zippers.",
     "productType": "accessory",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_accessories",
     "categoryAncestry": [
@@ -7464,9 +7464,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Unisex Handcrafted Leather Accessory",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -7478,7 +7478,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "The Voyager 45L Full-Grain Leather Weekend Duffle | Karigar & Co. Leather Atelier",
+      "title": "The Voyager 45L Full-Grain Leather Weekend Duffle | Whole/retail Name Leather Atelier",
       "description": "Cabin-approved 45L travel duffel bag handcrafted from full-grain black and bourbon leather with solid brass hardware.",
       "canonicalSlug": "the-voyager-45l-full-grain-leather-weekend-duffle",
       "noindex": false
@@ -7521,7 +7521,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Hand-stitched vegetable-tanned leather briefcase with a padded 16-inch laptop divider and organizer pockets.",
     "description": "The definitive business briefcase. Structured saddle cognac leather with dual brass tuck buckle closures. Inside features a padded compartment for up to a 16-inch laptop, tablet sleeve, pen slots, and luggage trolley strap.",
     "productType": "accessory",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_accessories",
     "categoryAncestry": [
@@ -7590,9 +7590,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Unisex Handcrafted Leather Accessory",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -7604,7 +7604,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "The Artisan Commuter Vegetable-Tanned Leather Briefcase | Karigar & Co. Leather Atelier",
+      "title": "The Artisan Commuter Vegetable-Tanned Leather Briefcase | Whole/retail Name Leather Atelier",
       "description": "Hand-stitched vegetable-tanned leather briefcase with a padded 16-inch laptop divider and organizer pockets.",
       "canonicalSlug": "the-artisan-commuter-vegetable-tanned-leather-briefcase",
       "noindex": false
@@ -7647,7 +7647,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Handcrafted black calfskin Chelsea boots with Goodyear-welted construction and natural crepe rubber traction grip.",
     "description": "Master shoemaking from Kolhapur guild artisans. Built from smooth box calf black leather on classic lasts. Goodyear-welted stacked leather sole with inset crepe rubber grip and moisture-wicking calfskin lining.",
     "productType": "footwear",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_footwear",
     "categoryAncestry": [
@@ -7801,9 +7801,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Unisex Handcrafted Leather Footwear",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -7815,7 +7815,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Goodyear-Welted Calfskin Chelsea Boots in Obsidian Black | Karigar & Co. Leather Atelier",
+      "title": "Goodyear-Welted Calfskin Chelsea Boots in Obsidian Black | Whole/retail Name Leather Atelier",
       "description": "Handcrafted black calfskin Chelsea boots with Goodyear-welted construction and natural crepe rubber traction grip.",
       "canonicalSlug": "goodyear-welted-calfskin-chelsea-boots-black",
       "noindex": false
@@ -7858,7 +7858,7 @@ export const initialProducts: ProductRecord[] = [
     "shortDescription": "Indestructible 1.5-inch wide belt crafted from 4mm thick bourbon bridle leather with a solid sandcast brass buckle.",
     "description": "Cut from a single strip of 4mm thick vegetable-tanned bridle leather with burnished beveled edges. Fitted with a heavy solid sandcast brass buckle fastened by screw-post rivets.",
     "productType": "accessory",
-    "brand": "Karigar & Co.",
+    "brand": "Whole/retail Name",
     "supplierId": "sup_kolhapur_guild",
     "categoryId": "cat_accessories",
     "categoryAncestry": [
@@ -8031,9 +8031,9 @@ export const initialProducts: ProductRecord[] = [
     },
     "legalMetrology": {
       "genericName": "Unisex Handcrafted Leather Accessory",
-      "manufacturerName": "Karigar Everyday Apparel & Goods Pvt. Ltd.",
+      "manufacturerName": "Whole/retail Name Pvt. Ltd.",
       "manufacturerAddress": "Plot 14, Okhla Industrial Area Phase II, New Delhi, Delhi 110020",
-      "packerName": "Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
+      "packerName": "Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001",
       "countryOfOrigin": "India",
       "netQuantity": "1 N",
       "consumerCareEmail": "care@karigarstore.in",
@@ -8045,7 +8045,7 @@ export const initialProducts: ProductRecord[] = [
     "returnWindowDays": 7,
     "warrantySummary": "5-Year Leather Seams, Hardware & YKK Zipper Guarantee.",
     "seo": {
-      "title": "Heritage 1.5\" Full-Grain Brass-Buckle Leather Belt | Karigar & Co. Leather Atelier",
+      "title": "Heritage 1.5\" Full-Grain Brass-Buckle Leather Belt | Whole/retail Name Leather Atelier",
       "description": "Indestructible 1.5-inch wide belt crafted from 4mm thick bourbon bridle leather with a solid sandcast brass buckle.",
       "canonicalSlug": "heritage-brass-buckle-bridle-leather-belt-bourbon",
       "noindex": false
@@ -8161,10 +8161,10 @@ export const initialCMSSections: CMSSection[] = [
     "revision": 3,
     "eyebrow": "OUR ORIGIN",
     "heading": "Why We Started",
-    "description": "We started Karigar in 2019 to bring back honest leather craftsmanship. We tailor every garment from full-grain lambskin and goat nappa with heavy YKK hardware and reinforced seams, giving you timeless outerwear built for decades of wear.",
+    "description": "We started Whole/retail Name in 2019 to bring back honest leather craftsmanship. We tailor every garment from full-grain lambskin and goat nappa with heavy YKK hardware and reinforced seams, giving you timeless outerwear built for decades of wear.",
     "desktopImage": "/images/story-detail-desktop.jpg",
     "mobileImage": "/images/story-detail-mobile.jpg",
-    "imageAlt": "Full-grain leather texture, precision stitching seam, and brushed YKK zipper detail on a Karigar & Co. jacket",
+    "imageAlt": "Full-grain leather texture, precision stitching seam, and brushed YKK zipper detail on a Whole/retail Name jacket",
     "primaryCtaLabel": "Read Our Story",
     "primaryCtaHref": "/story",
     "backgroundTone": "ivory_subtle",

@@ -26,7 +26,7 @@ export async function POST(request: Request) {
         draft: {
           shortDescription: `Pre-shrunk ${fabric} tailored in a ${fit} with 18 SPI lockstitched seams.`,
           description: `Crafted at our ${origin} using verified ${fabric}. Every batch is wash-tested prior to cutting so the ${fit} remains consistent wash after wash. Ships in a reusable unbleached cotton bag with full 7-day return eligibility.`,
-          seoTitle: `${title} — ${fabric} | Karigar & Co.`,
+          seoTitle: `${title} — ${fabric} | Whole/retail Name`,
           seoDescription: `Shop ${title} in ${fabric} (${fit}). GST-inclusive pricing and free shipping over ₹999.`,
         },
       });

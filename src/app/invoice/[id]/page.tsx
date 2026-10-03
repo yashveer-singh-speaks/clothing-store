@@ -61,7 +61,7 @@ export default function GSTInvoicePage() {
                 TAX INVOICE (ORIGINAL FOR RECIPIENT)
               </h1>
               <p className="font-bold text-sm mt-1">
-                Karigar Everyday Apparel & Goods Pvt. Ltd.
+                Whole/retail Name Pvt. Ltd.
               </p>
               <p>123, Inner Circle, Connaught Place, Connaught Place, New Delhi, Delhi – 110001</p>
               <p className="font-mono mt-1">
@@ -215,7 +215,7 @@ export default function GSTInvoicePage() {
               Certified that the particulars given above are true and correct. Subject to New Delhi Jurisdiction.
             </p>
             <p className="font-bold">
-              For Karigar Everyday Apparel & Goods Pvt. Ltd. (Authorised Signatory)
+              For Whole/retail Name Pvt. Ltd. (Authorised Signatory)
             </p>
           </div>
         </div>

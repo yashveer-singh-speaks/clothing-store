@@ -649,7 +649,7 @@ export default function AdminControlCenter({ initialTab = 'today' }: AdminContro
           <ShieldCheck className="w-5 h-5 text-[#B28A50] shrink-0 hidden sm:block" />
           <div className="min-w-0">
             <span className="font-story font-bold text-xs sm:text-base tracking-wide truncate block">
-              KARIGAR & CO. • SA A/C
+              WHOLE/RETAIL NAME • SA A/C
             </span>
           </div>
           <span className="hidden xl:inline-block ml-2 text-[11px] font-mono px-2 py-0.5 rounded bg-[#B28A50]/20 text-[#B28A50] shrink-0">
@@ -3477,7 +3477,7 @@ export default function AdminControlCenter({ initialTab = 'today' }: AdminContro
                       <p className="text-[#18201B]/75">{rev.body || rev.comment}</p>
                       {rev.staffReply && (
                         <p className="text-[11px] italic text-[#18201B]/70 border-l-2 border-[#B28A50] pl-2">
-                          Karigar Response: {rev.staffReply}
+                          Whole/retail Name Response: {rev.staffReply}
                         </p>
                       )}
                       <div className="flex gap-2 pt-1">

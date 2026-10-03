@@ -446,7 +446,7 @@ export default function HomePage() {
                           />
                           <img
                             src="/images/story-detail-desktop.jpg"
-                            alt="Full-grain leather texture, precision stitching seam, and brushed YKK zipper detail on a Karigar & Co. jacket"
+                            alt="Full-grain leather texture, precision stitching seam, and brushed YKK zipper detail on a Whole/retail Name jacket"
                             width={1800}
                             height={1200}
                             loading="lazy"
@@ -1101,7 +1101,7 @@ export default function HomePage() {
                           />
                           <img
                             src="/images/story-studio-desktop.jpg"
-                            alt="Karigar & Co. Connaught Place studio entrance, leather outerwear display, and fitting lounge"
+                            alt="Whole/retail Name Connaught Place studio entrance, leather outerwear display, and fitting lounge"
                             width={1800}
                             height={1200}
                             loading="lazy"

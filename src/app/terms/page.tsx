@@ -11,7 +11,7 @@ export default function TermsPage() {
 
       <div className="space-y-4">
         <p>
-          • <strong>Registered Seller Entity:</strong> Karigar Everyday Apparel & Goods Pvt. Ltd. (CIN: U18101KA2019PTC124890, GSTIN: 07AABCK4829L1Z5), 123, Inner Circle, Connaught Place, Connaught Place, New Delhi, Delhi – 110001.
+          • <strong>Registered Seller Entity:</strong> Whole/retail Name Pvt. Ltd. (CIN: U18101KA2019PTC124890, GSTIN: 07AABCK4829L1Z5), 123, Inner Circle, Connaught Place, Connaught Place, New Delhi, Delhi – 110001.
         </p>
         <p>
           • <strong>Pricing & MRP Compliance:</strong> All prices are displayed in Indian Rupees (₹) inclusive of applicable GST and never exceed the declared Maximum Retail Price (MRP) under the Legal Metrology (Packaged Commodities) Rules.

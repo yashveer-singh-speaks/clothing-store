@@ -407,7 +407,7 @@ export default function AccountPage() {
               Digital Personal Data Protection (DPDP Act, 2023) Controls
             </h2>
             <p className="text-[#18201B]/75">
-              You have complete control over your personal data and consent preferences stored with Karigar Everyday Apparel & Goods Pvt. Ltd.
+              You have complete control over your personal data and consent preferences stored with Whole/retail Name Pvt. Ltd.
             </p>
           </div>
 

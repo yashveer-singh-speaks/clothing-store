@@ -21,14 +21,14 @@ export default function VisitStudioPage() {
         <div className="lg:col-span-7 rounded-[8px] overflow-hidden border border-[#18201B]/15 shadow-sm">
           <img
             src="/images/story-studio.jpg"
-            alt="Karigar & Co. Connaught Place New Delhi Leather Studio"
+            alt="Whole/retail Name Connaught Place New Delhi Leather Studio"
             className="w-full aspect-[16/10] object-cover"
           />
         </div>
 
         <div className="lg:col-span-5 p-6 rounded-[8px] border border-[#18201B]/20 bg-[#F8F5ED] space-y-4 text-xs sm:text-sm">
           <h2 className="font-story text-2xl font-bold text-[#18201B]">
-            Karigar Everyday Apparel & Goods Pvt. Ltd.
+            Whole/retail Name Pvt. Ltd.
           </h2>
           <p className="flex items-start gap-2 text-[#18201B]/85">
             <MapPin className="w-4 h-4 text-[#B28A50] shrink-0 mt-1" />

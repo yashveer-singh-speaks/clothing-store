@@ -76,7 +76,7 @@ export async function POST(request: Request) {
       const newRev = {
         id: `rev_${Date.now()}`,
         productId: body.productId,
-        productTitle: product?.title || 'Karigar Product',
+        productTitle: product?.title || 'Whole/retail Name Product',
         orderId: hasDeliveredOrder ? 'verified_order' : 'guest_submission',
         customerName: body.customerName || 'Verified Shopper',
         city: body.city || 'New Delhi',

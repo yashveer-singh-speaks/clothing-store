@@ -42,8 +42,8 @@ export async function POST(request: Request) {
           order: db.categories.length + 1,
           archived: false,
           allowedFilters: body.allowedFilters || ['size', 'color', 'price'],
-          seoTitle: `${body.name} | Karigar & Co.`,
-          seoDescription: body.description || `Shop ${body.name} at Karigar & Co.`,
+          seoTitle: `${body.name} | Whole/retail Name`,
+          seoDescription: body.description || `Shop ${body.name} at Whole/retail Name`,
         };
         db.categories.push(newCat);
         db.auditLogs.unshift({

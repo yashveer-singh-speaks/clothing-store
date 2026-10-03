@@ -12,7 +12,7 @@ export default function PrivacyPolicyPage() {
 
       <div className="space-y-4">
         <p>
-          Karigar Everyday Apparel & Goods Pvt. Ltd. processes customer personal data strictly in accordance with India&apos;s Digital Personal Data Protection (DPDP) Act, 2023.
+          Whole/retail Name Pvt. Ltd. processes customer personal data strictly in accordance with India&apos;s Digital Personal Data Protection (DPDP) Act, 2023.
         </p>
         <p>
           • <strong>Purpose Limitation:</strong> Your name, mobile number, email, and shipping address are collected solely to fulfil your orders, issue statutory GST invoices, and provide shipment tracking and return support.

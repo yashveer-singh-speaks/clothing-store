@@ -13,14 +13,14 @@ export default function StoryPage() {
           Handcrafting Real Full-Grain Leather Outerwear for Decades of Wear
         </h1>
         <p className="text-sm sm:text-base text-[#18201B]/80 max-w-3xl leading-relaxed">
-          Karigar & Co. was founded in 2019 to liberate leather outerwear and goods from bonded pleather shortcuts, synthetic coatings, and inflated luxury retail markups.
+          Whole/retail Name was founded in 2019 to liberate leather outerwear and goods from bonded pleather shortcuts, synthetic coatings, and inflated luxury retail markups.
         </p>
       </div>
 
       <div className="rounded-[8px] overflow-hidden border border-[#18201B]/15 shadow-sm">
         <img
           src="/images/story-workshop.jpg"
-          alt="Karigar & Co. leather cutting table and hide inspection atelier"
+          alt="Whole/retail Name leather cutting table and hide inspection atelier"
           className="w-full aspect-[16/9] object-cover"
         />
       </div>
@@ -34,7 +34,7 @@ export default function StoryPage() {
             For decades, mass-market retail fashion quietly replaced genuine full-grain hides with bonded polyurethane &quot;pleather&quot;—plastics engineered to peel, crack, and end up in landfills within two seasons.
           </p>
           <p>
-            Meanwhile, generational tanners and bench shoemakers across Kolhapur, Ranipet, and Dharavi were cut out by fast-fashion conglomerates. We started Karigar & Co. with an uncompromising commitment to pure, uncorrected full-grain lambskin, supple calfskin, and vegetable-tanned cowhides that develop richer patina year after year.
+            Meanwhile, generational tanners and bench shoemakers across Kolhapur, Ranipet, and Dharavi were cut out by fast-fashion conglomerates. We started Whole/retail Name with an uncompromising commitment to pure, uncorrected full-grain lambskin, supple calfskin, and vegetable-tanned cowhides that develop richer patina year after year.
           </p>
           <p>
             Every jacket, coat, skirt, and bag is individually hand-cut on our Okhla cutting benches, sewn with heavy-duty bonded nylon thread at 12–14 precision stitches per inch, fitted with custom solid brass YKK zippers, and inspected by hand at our Connaught Place studio before dispatch.

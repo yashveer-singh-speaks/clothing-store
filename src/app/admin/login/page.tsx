@@ -56,7 +56,7 @@ export default function AdminLoginPage() {
             <Lock className="w-6 h-6" />
           </div>
           <p className="text-xs font-bold uppercase tracking-widest text-[#18201B]/65">
-            KARIGAR & CO. • CONTROL CENTER
+            WHOLE/RETAIL NAME • CONTROL CENTER
           </p>
           <h1 className="font-story text-2xl sm:text-3xl font-bold text-[#18201B]">
             Super Admin Sign In (SA A/C)

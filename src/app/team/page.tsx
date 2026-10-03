@@ -47,7 +47,7 @@ export default function TeamPage() {
       <div className="rounded-[8px] overflow-hidden border border-[#18201B]/15 shadow-sm">
         <img
           src="/images/story-founder.jpg"
-          alt="Founder Amit Deshmukh and master leather artisans of Karigar & Co."
+          alt="Founder Amit Deshmukh and master leather artisans of Whole/retail Name"
           className="w-full aspect-[16/9] object-cover"
         />
       </div>

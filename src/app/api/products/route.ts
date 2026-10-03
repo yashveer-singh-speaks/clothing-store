@@ -172,7 +172,7 @@ export async function POST(request: Request) {
         validated.description ||
         'Designed for everyday Indian weather and daily commutes. Includes complete Legal Metrology declarations and 7-day easy returns.',
       productType: validated.productType || 'shirt',
-      brand: body.brand || 'Karigar & Co.',
+      brand: body.brand || 'Whole/retail Name',
       supplierId: body.supplierId || 'sup_erode_mills',
       categoryId: validated.categoryId || 'cat_clothing',
       categoryAncestry: [validated.categoryId || 'cat_clothing'],
@@ -221,9 +221,9 @@ export async function POST(request: Request) {
       },
       legalMetrology: body.legalMetrology || {
         genericName: validated.title,
-        manufacturerName: 'Karigar Everyday Apparel & Goods Pvt. Ltd.',
+        manufacturerName: 'Whole/retail Name Pvt. Ltd.',
         manufacturerAddress: 'Plot 42, Okhla, New Delhi, Maharashtra 400013',
-        packerName: 'Karigar Studio Fulfilment Centre, Connaught Place, New Delhi 110001',
+        packerName: 'Whole/retail Name Studio Fulfilment Centre, Connaught Place, New Delhi 110001',
         countryOfOrigin: 'India',
         netQuantity: '1 N',
         consumerCareEmail: 'care@karigarstore.in',
@@ -235,7 +235,7 @@ export async function POST(request: Request) {
       returnWindowDays: 7,
       warrantySummary: '6-month seam and hardware repair guarantee.',
       seo: {
-        title: `${validated.title} | Karigar & Co.`,
+        title: `${validated.title} | Whole/retail Name`,
         description: validated.shortDescription || validated.title,
         canonicalSlug: slug,
         noindex: false,

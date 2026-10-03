@@ -291,7 +291,7 @@ export default function ProductDetailPage() {
         sku: activeVariant?.sku || product.variants[0]?.sku,
         brand: {
           '@type': 'Brand',
-          name: product.brand || 'Karigar & Co.',
+          name: product.brand || 'Whole/retail Name',
         },
         image: product.images.map((i) => i.url),
         offers: {
@@ -759,7 +759,7 @@ export default function ProductDetailPage() {
                     </p>
                     <p>
                       <strong>Packer Name:</strong>{' '}
-                      {product.legalMetrology?.packerName || 'Karigar & Co.'}
+                      {product.legalMetrology?.packerName || 'Whole/retail Name'}
                     </p>
                     <p className="sm:col-span-2">
                       <strong>Manufactured & Packed By:</strong>{' '}
@@ -1026,7 +1026,7 @@ export default function ProductDetailPage() {
           <div className="w-full max-w-xl bg-[#F8F5ED] text-[#18201B] rounded-[8px] border border-[#18201B]/20 p-5 space-y-4 shadow-2xl">
             <div className="flex items-center justify-between border-b border-[#18201B]/12 pb-3">
               <h3 className="font-story text-xl font-bold">
-                Karigar & Co. — Standard Indian Size Chart
+                Whole/retail Name — Standard Indian Size Chart
               </h3>
               <button
                 type="button"

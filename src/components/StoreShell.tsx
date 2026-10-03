@@ -31,9 +31,9 @@ import { useStore } from '@/context/StoreContext';
 import { GlobalCMSSettings } from '@/lib/types';
 
 const DEFAULT_SETTINGS: GlobalCMSSettings = {
-  storeName: 'Karigar & Co.',
+  storeName: 'Whole/retail Name',
   storeTagline: 'Full-grain leather jackets, coats, skirts & goods.',
-  legalEntityName: 'Karigar Everyday Apparel & Goods Pvt. Ltd.',
+  legalEntityName: 'Whole/retail Name Pvt. Ltd.',
   gstin: '07AABCK4829L1Z5',
   foundingYear: 2019,
   announcementBar: {
@@ -47,7 +47,7 @@ const DEFAULT_SETTINGS: GlobalCMSSettings = {
     endsAt: null,
   },
   header: {
-    logoText: 'KARIGAR & CO.',
+    logoText: 'WHOLE/RETAIL NAME',
     showPinChecker: true,
     defaultPin: '',
     navLinks: [
@@ -404,7 +404,7 @@ export default function StoreShell({ children }: { children: React.ReactNode }) 
             className="flex items-center justify-center lg:justify-start focus:outline-none shrink-0"
           >
             <span className="font-story text-xl sm:text-2xl lg:text-[26px] font-bold tracking-tight text-[#18201B] leading-none">
-              {settings.header?.logoText || 'KARIGAR & CO.'}
+              {settings.header?.logoText || 'WHOLE/RETAIL NAME'}
             </span>
           </Link>
 

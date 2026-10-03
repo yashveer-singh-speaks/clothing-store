@@ -4,7 +4,7 @@ import { StoreProvider } from '@/context/StoreContext';
 import StoreShell from '@/components/StoreShell';
 
 export const metadata: Metadata = {
-  title: 'Karigar & Co. | Everyday Clothing, Footwear & Craft Chosen With Care',
+  title: 'Whole/retail Name | Everyday Clothing, Footwear & Craft Chosen With Care',
   description:
     'Thoughtfully woven pre-shrunk long-staple cotton shirts, Kutch handloom kurtas, commuter chinos, Kolhapuri leather footwear, and heavyweight canvas totes from our Connaught Place, New Delhi studio.',
 };
